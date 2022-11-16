@@ -288,7 +288,7 @@ main {
 .origin {
   border-left: 2px solid #473517;
   padding-left: 30px;
-  margin-left: 70px;
+  margin-left: 20px;
 }
 
 .origin-title {
@@ -579,16 +579,29 @@ main {
 
 /* background-significance */
 
+.given-project {
+  border-right: 2px solid #473517;
+  border-left: 2px solid #473517;
+}
+
+.project-title {
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
 .project-background, .project-rationale, .project-proposal, .project-social-studies {
   border-right: 2px solid #473517;
   border-left: 2px solid #473517;
-  height: 200px;
+  height: 250px;
+  padding: 20px 0;
 }
 
 .project-background-title, .project-rationale-title, .project-proposal-title, .project-social-studies-title {
   text-align: center;
   font-size: 25px;
   color: #473517;
+  padding-top: 50px;
 }
 
 .project-background-description, .project-rationale-description, .project-proposal-description {
@@ -597,16 +610,17 @@ main {
 
   margin: auto;
   padding-bottom: 200px;
-  color: #967E76;
-  font-size: 17px;
+  color: #2c200c;
+  font-size: 20px;
 }
 
 .project-social-studies-answers {
   display: flex;
   align-items: flex-end;
-  color: #967E76;
+  color: #2c2c2c;
 
   padding: 0;
+  font-size: 18px;
 }
 
 .project-social-studies-answers li {
@@ -617,6 +631,3 @@ main {
 
   margin: auto;
 }
-
-
-
